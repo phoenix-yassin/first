@@ -1,3 +1,19 @@
+# VirtualBox的四种网络连接方式
+* NAT
+* Bridged Adapter
+* Internal
+* Host-only Adapter
+VMWare中有三种，其实他跟VMWare 的网络连接方式都是一样概念，只是比VMWare多了Internal方式。
+
+要让自己（或别人）理解深刻，方法就是做比较和打比方，比较之间的不同和相同，拿熟知的事物打比方。先来一张图，通过这张图就很容易看出这4种方式的区别：
+
+!['virtualbox 四种网络连接方式']  (http://img1.51cto.com/attachment/201111/182833471.png  'virtualbox 四种网络连接方式')
+
+`虚拟机ping主机，有可能会被防火墙屏蔽，需要关掉防火墙能` 
+
+
+
+
 # CentOS yum  “Could not retrieve mirrorlist ” ---fixed
 > [root@localhost ~]# yum -y install wget   （注：在下载wget命令并安装)
 
