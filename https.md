@@ -24,8 +24,6 @@
 
 
 
-  
-
 ##SSL & TSL
 + ssl(secure sockets layer)
 + TSL(transport secure layer)
@@ -43,13 +41,14 @@
 4）服务器恢复该主密钥，并返回给客户一个用主密钥认证的信息，以此让客户认证服务器。
 
 
-##对称加密 & 非对称加密
-+ 对称加密：
-+ 非对称加密 ： RSA，ECDHE（ECDHE 密钥交换默认都是指 ECDHE_RSA），DH，DHE，RSA 
+## 对称加密 & 非对称加密
++ 对称加密：DES, RC4, IDEA
++ 非对称加密 ： RSA，ECDHE（ECDHE 密钥交换默认都是指 ECDHE_RSA），DH，DHE，DSA 
++ (散列算法) ： MD5， SHA-1， MAC， CRC
 
 
 ## Mixed content
-+ https中的http资源称，不通的浏览器处理规则不一样。
++ https中的http资源称，不通的浏览器处理规则不一样。bing
 + mixed content规范（现代浏览器都遵守了该规范），将mixed content 分为：optionally-blockable和blockable资源：optionally-blocked资源--危险性
 小的资源，包括多媒体资源，prefetched资源；blockable资源--除了optionally-blocked资源，其余的都是blockable。现代浏览器默认对于js、css等
 http资源，将会不加载，在控制台输出错误信息。
@@ -70,4 +69,11 @@ http资源，将会不加载，在控制台输出错误信息。
 从而构成 HTTPS 降级劫持。(慢，不安全）
 + 301
 + 302重定向又称之为302代表暂时性转移(Temporarily Moved )
+
+## SNI 与 SAN
+1. 
+
+## 关键问题
++ IE 6 ：默认只支持 SSLv2 和 SSLv3，也就是说 HTTPS 网站要支持 IE 6，就必须启用 SSLv3。
++ HSTS ：Internet Explorer 7 on Windows Vista.
 
