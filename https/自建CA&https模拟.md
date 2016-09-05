@@ -20,3 +20,5 @@
 ##### （2） 配置httpd/nginx支持使用ssl,支持使用从CA签发的证书
 
 ##### （3） 测试主机https访问，完成SSL服务器搭建
+
+##### [Multiple Names on One Certificate] (http://apetec.com/support/GenerateSAN-CSR.htm)
