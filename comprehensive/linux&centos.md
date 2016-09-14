@@ -37,3 +37,7 @@ Error: Cannot find a valid baseurl for repo: addons
 * search localdomain
 
 保存再次运行上面命令就可以。
+
+#linux  端口操作
+*  ps -aux | grep tomcat 
+*  netstat –apn | grep 8080
