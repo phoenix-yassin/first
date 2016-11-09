@@ -22,7 +22,7 @@
 <#-- 使用FTL指令 --> 
 <#list animals as being><br> 
    <li>${being.name} for ${being.price} Euros<br> 
-<#list><br> 
+</#list><br> 
 <u1><br> 
 </body><br> 
 </html> 
@@ -31,7 +31,7 @@
 ## freemarker 指令
 freemarker 指令类似html标签
 
-- 开始标签与结束标签: <#directive-name parameter><#directive-name parameter/>
+- 开始标签与结束标签: <#directive-name parameter></#directive-name parameter>
 - 空标签:<#direcitve-name />
 注意: 如果是用户自定义指令, 而不是系统指令,应该用@代替
 
