@@ -40,3 +40,16 @@ FreeMarker的插值有如下两种类型:1,通用插值${expr};  2,数字格式�
 * 通用插值 
 
 * 数字格式化插值 
+
+
+
+
+
+
+# 环境相关资料
+
+## 脚手架
+[https://github.com/17173/generator-java-webapp/blob/2.0.0/README.md] (https://github.com/17173/generator-java-webapp/blob/2.0.0/README.md)
+
+## Mock平台
+[FED] (https://github.com/ijse/FED "fed") 
