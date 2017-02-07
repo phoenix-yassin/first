@@ -11,4 +11,7 @@
 * enter it and get all commits since revision 'N'
 
     `cd some-branch`
-    `git svn rebase`
+    `git svn rebase`
+* new ubuntu withou git-svn, so we should install it. But git-svn is dependent with  perlapi-5.14.2, 
+      * apt-get install perl-base=5.14.2-6ubuntu2.5
+      * http://packages.ubuntu.com/zh-cn/precise/perl-base
