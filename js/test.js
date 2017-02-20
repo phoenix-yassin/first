@@ -99,7 +99,7 @@ jQuery.extend = jQuery.fn.extend = function () {
   var target = arguments[0] || {},
       i = 1,
       length = arguments.length,
-      source, copy, copyIsArray, clone, name, options,
+      src, copy, copyIsArray, clone, name, options,
       deep = false;
 //如果第一个参数是deep的参数, 那么第二个参数是目标,后面的参数是源
   if(typeof taget === 'boolean'){
@@ -117,7 +117,7 @@ jQuery.extend = jQuery.fn.extend = function () {
   }
 
   for(; i < length; i++ ){//
-    if( (options = arguments[i])!= null){
+    if( (options = arguments[i]) != null){
       for(name in options){
         src = target[name];
         copy = options[name];
@@ -134,7 +134,7 @@ jQuery.extend = jQuery.fn.extend = function () {
             clone = src && jQuery.isPlain(src)? src : {};
           }
           target[ name ] = jQuery.extend( deep, clone, copy );
-        }elseif(copy !== undefined){
+        }else if(copy !== undefined){
           target[name] = copy;
         }
       }
