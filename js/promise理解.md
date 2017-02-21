@@ -36,7 +36,7 @@ function get(url) {
       }
     }
     req.onerror = function() {
-      reject(Error(Network Err!));
+      reject(Error('Network Err!'));
     }
 
     req.send();
