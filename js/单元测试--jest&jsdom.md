@@ -1,4 +1,12 @@
 ## jsdom 简介
+
+#### 异步测试
+```
+
+```
+
+
+#### 无模块js测试
 ```
 'use strict';
 const fs = require('fs');
